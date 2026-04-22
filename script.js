@@ -44,7 +44,7 @@ function init() {
     setTimeout(() => {
         hideLoader();
         triggerContentAnimations();
-    }, 2500);
+    }, 3000);
     
     // Set up event listeners
     setupEventListeners();
@@ -391,7 +391,7 @@ function submitForm() {
         setTimeout(() => {
             hideSuccessMessage();
         }, 6000);
-    }, 2500);
+    }, 3000);
 }
 
 // Show success message with enhanced animation
